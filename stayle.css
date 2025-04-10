@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f7f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: white;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.left-side nav {
+  display: flex;
+  gap: 20px;
+}
+
+.left-side nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.contact {
+  background: black;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  background: #fff;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  background: #00b386;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.services {
+  padding: 40px 0;
+  background: #eef6f6;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card.green {
+  background: #00b386;
+  color: white;
+}
+
+.card a {
+  color: inherit;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.contact-form {
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-bg {
+  background: url('https://images.genius.com/68d60546ef85093eb9b80a28f8eee564.1000x1000x1.png') no-repeat center center/cover;
+  padding: 40px 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background: #00b386;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
